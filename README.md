@@ -7,8 +7,9 @@ Before you start, you will need:
     Docker Compose installed on Ubuntu 18.04.
 
 
-Place auth_projecct folder in your ubuntu server's user's folder
-example :
+Place "Authentification_with_laravel_vue" folder in your ubuntu server's user's folder
+
+Example :
 
  "\\wsl$\Ubuntu-18.04\home\ {user_name} \auth_projecct"
 
@@ -17,6 +18,7 @@ Run following codes :
 docker-compose up -d
 
 docker-compose exec app php artisan migrate
+
 
 Go to http://localhost/ or http://127.0.0.1/
 
