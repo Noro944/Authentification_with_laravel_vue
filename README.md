@@ -15,9 +15,8 @@ Example :
 
 Run following codes :
 
-docker-compose up -d
-
-docker-compose exec app php artisan migrate
+	docker-compose up -d
+	docker-compose exec app php artisan migrate
 
 
 Go to http://localhost/ or http://127.0.0.1/
