@@ -8,9 +8,12 @@ Before you start, you will need:
 
 
 Place auth_projecct folder in your ubuntu server's user's folder
-example : \\wsl$\Ubuntu-18.04\home\{user_name}\auth_projecct
+example :
+
+ "\\wsl$\Ubuntu-18.04\home\ {user_name} \auth_projecct"
 
 Run following codes :
+
 docker-compose up -d
 
 docker-compose exec app php artisan migrate
