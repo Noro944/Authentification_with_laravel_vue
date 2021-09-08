@@ -12,6 +12,7 @@ example : \\wsl$\Ubuntu-18.04\home\{user_name}\auth_projecct
 
 Run following codes :
 docker-compose up -d
+
 docker-compose exec app php artisan migrate
 
 Go to http://localhost/ or http://127.0.0.1/
